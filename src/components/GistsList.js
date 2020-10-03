@@ -33,6 +33,10 @@ function GistItem(props) {
 
   const [active, setActive] = useState(false);
 
+  useEffect(() => {
+    setActive(false);
+  });
+
   return (
     <div className={classes.gistWrapper} onClick={() => setActive(!active)}>
       <img
