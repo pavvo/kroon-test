@@ -1,0 +1,74 @@
+/* App component */
+
+.pageContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-weight: 600;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f3f3f3;
+}
+.gistsContainer {
+  height: calc(100% - 150px);
+  padding-left: 20;
+  position: relative;
+}
+.paginationPan {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30;
+}
+
+/* GistsList component */
+
+.gistWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+.gistAvatar {
+  width: 50px;
+  margin-right: 10px;
+}
+.gistFileName {
+  font-family: "Roboto", sans-self;
+}
+.gistListWrapper {
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+}
+.activeGistFileName {
+  font-family: "Roboto", sans-self;
+  color: blue;
+}
+
+/* Loading component */
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255);
+  z-index: 9999;
+  font-size: 32px;
+}
