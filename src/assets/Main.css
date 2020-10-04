@@ -20,7 +20,7 @@
 }
 .gistsContainer {
   height: calc(100% - 150px);
-  padding-left: 20;
+  padding-left: 20px;
   position: relative;
 }
 .paginationPan {
@@ -28,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 30;
+  padding-right: 30px;
 }
 
 /* GistsList component */
