@@ -21,7 +21,6 @@ function App() {
       .getGistsData("2019-12-31", 30, pageNum)
       .then((data) => {
         setGists(data);
-        console.log(data);
       })
       .finally(() => {
         setIsLoading(false);
